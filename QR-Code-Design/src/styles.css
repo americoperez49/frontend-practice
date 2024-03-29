@@ -1,0 +1,21 @@
+/* You can add global styles to this file, and also import other style files */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: "Outfit";
+    src: url(./assets/fonts/Outfit-VariableFont_wght.ttf);
+    font-weight: 400;
+    font-display: swap;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: "Outfit";
+    src: url(./assets/fonts/Outfit-VariableFont_wght.ttf);
+    font-weight: 700;
+    font-display: swap;
+    font-style: normal;
+  }
+}
